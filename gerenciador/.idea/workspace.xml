@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="gerenciador:war exploded" />
+      <artifact name="gerenciador:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
@@ -13,6 +13,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
@@ -21,8 +24,9 @@
       <list>
         <option value="package-info" />
         <option value="HTML File" />
-        <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -42,7 +46,8 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/static" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -52,17 +57,26 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Pc Gamer\IdeaProjects\gerenciador\web\WEB-INF\lib" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.gustavostz.gerenciador.acao" />
+      <recent name="br.com.alura.gerenciador.servlet" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Pc Gamer\IdeaProjects\gerenciador\web" />
+      <recent name="C:\Users\Pc Gamer\OneDrive - Associacao Antonio Vieira\Estudos\Alura\Formacoes\DevJava\Servlet1\gerenciador\web\WEB-INF\static" />
+      <recent name="C:\Users\Pc Gamer\OneDrive - Associacao Antonio Vieira\Estudos\Alura\Formacoes\DevJava\Servlet1\gerenciador\web\WEB-INF\lib" />
+      <recent name="C:\Users\Pc Gamer\OneDrive - Associacao Antonio Vieira\Estudos\Alura\Formacoes\DevJava\Servlet1\gerenciador\lib" />
+      <recent name="C:\Users\Pc Gamer\OneDrive - Associacao Antonio Vieira\Estudos\Alura\Formacoes\DevJava\Servlet1\gerenciador\web\WEB-INF\view" />
+      <recent name="C:\Users\Pc Gamer\OneDrive - Associacao Antonio Vieira\Estudos\Alura\Formacoes\DevJava\Servlet1\gerenciador\src\br\com\gustavostz\gerenciador\modelo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.gustavostz.gerenciador.servlet" />
+      <recent name="br.com.gustavostz.gerenciador.acao" />
       <recent name="br.com.alura.gerenciador.acao" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="br.com.alura.gerenciador.servlet" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pc Gamer\OneDrive - Associacao Antonio Vieira\Estudos\Alura\Formacoes\DevJava\Servlet1\gerenciador\out\artifacts" />
+      <recent name="C:\Users\Pc Gamer\OneDrive - Associacao Antonio Vieira\Estudos\Alura\Formacoes\DevJava\Servlet1\gerenciador\web\WEB-INF\view" />
+      <recent name="C:\Users\Pc Gamer\IdeaProjects\gerenciador\web\WEB-INF\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -77,7 +91,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.19">
+    <configuration name="gson-2.8.5.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/web/WEB-INF/lib/gson-2.8.5.jar" />
+      <method v="2" />
+    </configuration>
     <configuration name="Tomcat 9.0.19" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.19" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="gerenciador:war exploded">
@@ -149,6 +167,11 @@
         </option>
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.gson-2.8.5.jar" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -166,86 +189,13 @@
       <workItem from="1565017940144" duration="10410000" />
       <workItem from="1565064880655" duration="8000" />
       <workItem from="1565100530795" duration="11203000" />
-      <workItem from="1565142423881" duration="1427000" />
+      <workItem from="1565142423881" duration="11359000" />
+      <workItem from="1565190406135" duration="17379000" />
+      <workItem from="1565217476741" duration="2648000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>gerenciador:war</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>gerenciador</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>javax.servlet:jstl:1.2</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

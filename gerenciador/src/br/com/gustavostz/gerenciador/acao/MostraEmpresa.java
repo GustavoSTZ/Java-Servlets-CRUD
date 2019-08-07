@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-public class MostraEmpresa {
+public class MostraEmpresa implements Acao{
     public String executa(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         System.out.println("mostrando dados da empresa");
 
@@ -22,6 +22,6 @@ public class MostraEmpresa {
 
         request.setAttribute("empresa",empresa);
 
-        return "foward:/formAlteraEmpresa.jsp";
+        return "forward:formAlteraEmpresa.jsp";
     }
 }
