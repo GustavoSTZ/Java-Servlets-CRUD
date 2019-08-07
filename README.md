@@ -5,6 +5,7 @@ Utilizando apenas Servlets, JSP(utilizando JSTL e Expression Language) para pág
 Guia para navegar no Servlet:
 
 http://localhost:8080/gerenciador/formNovaEmpresa.jsp
+
 http://localhost:8080/gerenciador/entrada?acao=ListaEmpresas
 
 A partir desses dois links conseguirá navegar por todo o Servlet.
