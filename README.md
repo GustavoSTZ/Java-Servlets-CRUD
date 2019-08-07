@@ -3,6 +3,7 @@ Um CRUD em JAVA sem utilização de frameworks de mais "alto nível"(como o Spri
 Utilizando apenas Servlets, JSP(utilizando JSTL e Expression Language) para páginas dinâmicas e TomCat 9.0.19 para o server.
 
 Guia para navegar no Servlet:
+
 http://localhost:8080/gerenciador/formNovaEmpresa.jsp
 http://localhost:8080/gerenciador/entrada?acao=ListaEmpresas
 
