@@ -4,10 +4,8 @@ Utilizando apenas Servlets, JSP(utilizando JSTL e Expression Language) para pág
 
 Guia para navegar no Servlet:
 
-http://localhost:8080/gerenciador/formNovaEmpresa.jsp
+-Essa aplicação não necessita nenhum Banco de Dados instalado, pois o objetivo era mostrar uma aplicação Servlet e não persistencia.
 
-http://localhost:8080/gerenciador/entrada?acao=ListaEmpresas
-
-A partir desses dois links conseguirá navegar por todo o Servlet.
+-Use o usuário gustavo e senha 12345 para conseguir se logar
 
 
